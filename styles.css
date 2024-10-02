@@ -120,7 +120,6 @@ button:hover {
 }
 
 
-
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -153,5 +152,35 @@ button:hover {
     top: 0px;
     width: 100%;
     z-index: -1;
+}
+
+.committee-info {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    margin-bottom: 5px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+
+.logo:hover {
+    transform: scale(1.05);
+}
+
+.committee-message {
+    font-size: 1.2em;
+    color: #000;
+    font-weight: bold;
+    font-family: 'Lucida Handwriting', cursive;
+
 }
 
