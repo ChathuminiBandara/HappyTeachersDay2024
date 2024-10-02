@@ -198,5 +198,25 @@ button:hover {
         font-size: 0.8em;
     }
 }
+@media (max-width: 600px) {
+    .container {
+        padding: 20px 10px;
+        max-width: 85%;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    button {
+        padding: 10px 20px;
+        font-size: 0.9em;
+    }
+}
+
 
 
