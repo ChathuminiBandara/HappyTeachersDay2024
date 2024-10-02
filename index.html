@@ -1,10 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher's Day Greeting</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.js"></script>
+
 </head>
 <body>
-$END$
+<div id="confetti"></div>
+
+<div class="container text-center">
+    <h1>Happy Teacher's Day!</h1>
+    <p>Click the button to see a special message Lecturers!</p>
+    <button id="messageButton"  onclick="showMessage()">Show Message</button>
+    <div id="messages" class="hidden mt-4"></div>
+</div>
+<br>
+
+
+<script src="script.js"></script>
+
 </body>
 </html>
