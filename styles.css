@@ -71,7 +71,7 @@ h1 {
 
 
 p {
-    color: #555;
+    color: rgba(85, 85, 85, 0.29);
     font-size: 1.2em;
     margin: 10px 0 20px;
 }
@@ -101,7 +101,7 @@ button:hover {
 
 #messages {
     margin-top: 20px;
-    font-size: 1.2em;
+    font-size: 1.4em;
     color: #ffffff;
     font-family: "Segoe Print";
     animation: fadeIn 0.5s ease;
@@ -178,9 +178,25 @@ button:hover {
 
 .committee-message {
     font-size: 1.2em;
-    color: #000;
+    color: rgba(0, 0, 0, 0.87);
     font-weight: bold;
-    font-family: 'Lucida Handwriting', cursive;
+    font-family: "Segoe Print";
 
 }
+
+@media (max-width: 600px) {
+    .committee-info {
+        bottom: 15px;
+    }
+
+    .logo {
+        width: 75px;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
+    }
+
+    .committee-message {
+        font-size: 0.8em;
+    }
+}
+
 
