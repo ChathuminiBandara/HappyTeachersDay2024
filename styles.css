@@ -102,7 +102,7 @@ button:hover {
 #messages {
     margin-top: 20px;
     font-size: 1.4em;
-    color: #ffffff;
+    color: #000000;
     font-family: "Segoe Print", serif;
     animation: fadeIn 0.5s ease;
     padding: 10px;
@@ -111,7 +111,6 @@ button:hover {
     transition: background 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
     background: linear-gradient(135deg, rgba(255, 0, 0, 0.44), rgb(255, 255, 255));
 }
-
 
 #messages:hover {
     background: linear-gradient(135deg, rgb(255, 255, 255), rgba(255, 0, 0, 0.44));
@@ -145,7 +144,7 @@ button:hover {
 
 
 #confetti{
-    background: rgb(255, 4, 4);
+    background:linear-gradient(135deg, rgb(0, 0, 0), rgba(255, 0, 0, 0.44),rgb(0, 0, 0));
     height: 100%;
     left: 0;
     position: fixed;
